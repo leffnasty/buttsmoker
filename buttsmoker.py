@@ -46,8 +46,8 @@ meatsensor = adafruit_max31865.MAX31865(spi,cs2,wires=3,rtd_nominal=100.0,ref_re
 meat_type = "Boston Butt"
 weight = 8.5 #lbs
 recipe = "Butt-Smoker Testing Recipe"
-done_temp = 100.00 #degF Internal Meat Probe Temperature
-set_point = 100.00 # degF Smoker Hold Temperature
+done_temp = 150.00 #degF Internal Meat Probe Temperature
+set_point = 225.00 # degF Smoker Hold Temperature
 
 
 interval = 5 #seconds

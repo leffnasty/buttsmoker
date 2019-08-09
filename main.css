@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Exo', sans-serif;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Main Content Styles */
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 991px;
+    width: 100%;
+}
+
+/* Upper Content Styles */
+
+.upper-content {
+    display: flex;
+    flex-direction: column;
+    margin: 16px 0;
+    width: 100%;
+}
+
+.upper-content .upper-content-section {
+    display: flex;
+    flex-direction: column;
+    padding-left: 16px;
+    width: 100%;
+}
+
+.upper-content .upper-content-section:first-child {
+    padding-left: 0;
+    padding-right: 16px;
+} 
+
+.upper-content .upper-content-section .temp-settings-field {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.upper-content .upper-content-section .temp-settings-field label {
+    margin-bottom: 4px;
+}
+
+.upper-content .upper-content-section .temp-settings-field input {
+    border: 1px solid #777;
+    border-radius: 5px;
+    margin-bottom: 8px;
+    padding: 4px 12px;
+}
+
+.upper-content .upper-content-section .temp-settings-field input:focus {
+    outline: none;
+    border-color: #55b1d8;
+}
+
+/* Table Styles */
+
+.table {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.table .thead,
+.table .tbody {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.table .thead .tr,
+.table .tbody .tr {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+
+.table .thead .tr {
+    background: #dedede;
+    border-bottom: 2px solid #777;
+}
+
+.table .tbody .tr {
+    border-bottom: 1px solid #777;
+}
+
+.table .thead .tr .th-cell,
+.table .tbody .tr .td-cell {
+    width: 100%;
+    padding: 12px 8px;
+}
+
+.table .thead .tr .th-cell {
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
